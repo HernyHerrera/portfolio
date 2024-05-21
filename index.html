@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/b3b5a282b3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="inicio" id="inicio">
+        <header>
+            <a href="#" class="logo">Herny <span>Herrera.</span></a>
+            <ul class="nav">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </header>
+        <div class="contenido">
+            <div class="tituloBox">
+                <h2>Hola, <span>soy Herny Herrera</span></h2>
+                <h3>Desarrollador web full-stack</h3>
+                <p>Desarrollo aplicaciones web con diferentes tecnologías, me apasiona la tecnología y el aprendizaje constante, busco nuevos retos y desafíos profesionales,
+                además de programar también me gustan los deportes, Futbol, Baloncesto, Tenis de mesa...
+                </p>
+                <a href="#proyectos">Proyectos</a>
+            </div>
+            <div class="imgBox" id="imgBox">
+                <img src="images/Herny.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="proyectos" id="proyectos">
+        <h2 class="titulo">Proyectos</h2>
+        <div class="texBox">
+            <p>He realizado diferentes proyectos, con diferentes tecnologias. <br>
+                <i class="fab fa-html5" style="color: orange;"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js" style="color: yellow;"></i>
+                <i class="fab fa-angular" style="color: #F23030;"></i>
+                <i class="fa fa-database"></i>
+                <i class="fab fa-git-alt" style="color: #F28705;"></i>
+                <i class="fab fa-java"></i>
+                
+                <svg xmlns="http://www.w3.org/2000/svg" x="10px" y="10px" margin-top="10px" width="35" height="35"
+                    viewBox="0 0 48 48">
+                    <path fill="#8bc34a"
+                        d="M43.982,23.635c0.069-4.261-0.891-9.328-2.891-15.273l-1.568-4.662l-2.13,4.433 c-0.114,0.237-0.244,0.469-0.38,0.698C33.514,5.827,28.974,4,24,4C12.954,4,4,12.954,4,24c0,11.046,8.954,20,20,20s20-8.954,20-20 C44,23.877,43.984,23.758,43.982,23.635z">
+                    </path>
+                    <path fill="#fff"
+                        d="M39.385 32.558c-3.123 4.302-8.651 4.533-13.854 4.442H18.75h-1.938c4.428-1.593 7.063-1.972 9.754-3.4 5.068-2.665 10.078-8.496 11.121-14.562-1.93 5.836-7.779 10.85-13.109 12.889-3.652 1.393-10.248 2.745-10.248 2.745l-.267-.145C9.573 32.268 9.437 22.214 17.6 18.968c3.574-1.423 6.993-.641 10.854-1.593 4.122-1.012 8.89-4.208 10.83-8.375C41.456 15.667 44.07 26.106 39.385 32.558L39.385 32.558zM15.668 38.445C15.386 38.795 14.955 39 14.505 39c-.823 0-1.495-.677-1.495-1.5s.677-1.5 1.495-1.5c.341 0 .677.118.941.336C16.086 36.855 16.186 37.805 15.668 38.445L15.668 38.445z">
+                    </path>
+                </svg>
+            </p>
+        </div>
+        <div class="cardProyectos">
+            <div class="card card1">
+                <a href="https://herny11.github.io/TICKET/" target="_blank">
+                    <div class="cardImg">
+                        <img src="images/ticket.jpg" alt="">
+                    </div>
+                </a>
+                <p><span>Proyecto ticket</span> - Aplicación web generador de cupones de descuento</p>
+            </div>
+            <div class="card card2">
+                <a href="https://herny11.github.io/formulario/" target="_blank">
+                    <div class="cardImg">
+                        <img src="images/formulario.jpg" alt="">
+                    </div>
+                </a>
+                <p><span>Formulario</span> - Proyecto de formulario web</p>
+            </div>
+            <div class="card card3">
+                <a href="https://herny11.github.io/calculadora/" target="_blank">
+                    <div class="cardImg">
+                        <img src="images/calculadora.jpg" alt="">
+                    </div>
+                </a>
+                <p><span>Calculadora</span> - Calculadora web</p>
+            </div>
+            <div class="card card4">
+                <a href="https://herny11.github.io/clock/" target="_blank">
+                    <div class="cardImg">
+                        <img src="images/clock.jpg" alt="">
+                    </div>
+                </a>
+                <p><span>Reloj</span> - Aplicación web Reloj</p>
+            </div>
+            <div class="card card5">
+                <a href="https://herny11.github.io/pokedex/" target="_blank">
+                    <div class="cardImg">
+                        <img src="images/pokedex.jpg" alt="">
+                    </div>
+                </a>
+                <p><span>Pokedex</span> - Proyecto de pokedex</p>
+            </div>
+            <div class="card card6">
+                <a href="#" target="_blank">
+                    <div class="cardImg">
+                        <iframe src="images/appInventario.webm" frameborder="0"></iframe>
+                    </div>
+                </a>
+                <p><span>Proyecto de Inventario</span> - Aplicación web de Inventario con SpringBoot y Angular</p>
+            </div>
+        </div>
+    </section>
+    <section class="contacto" id="contacto">
+        <h2>Contacto y Redes</h2>
+        <h3>Telefono: +34681188109</h3>
+        <div class="redes">
+            <a href="http://linkedin.com/in/herny-herrera-04313586" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/hernyherrera" target="_blank"><i class="fab fa-github"></i></ion-icon></a>
+            <a href="http://hernyh11" target="_blank"><i class="fab fa-discord"></i></a>
+            <a href="http://hernyh_11@hotmail.com" target="_blank"><i class="fa fa-at"></i></a>
+        </div>
+        <a href="/images/HernyHerreraCV-Español.pdf" download="Herny_Herrera_CV">
+            <h3>Descargar CV <i class="fa fa-file"></i></h3>
+        </a>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</body>
+
+</html>

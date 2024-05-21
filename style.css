@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Reddit', sans-serif;
+}
+body{
+    background: #0B2B40;
+    overflow-x: hidden;
+}
+section{
+    padding: 100px;
+}
+.inicio{
+    
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 40px 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+    transition: 0.3s;
+    background: #154666;
+
+}
+header .logo{
+    font-size: 2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 0 10px ;
+}
+header .logo span{
+    color: #011140;
+    font-weight: 700;
+}
+header .nav{
+    position: relative;
+    display: flex;
+}
+header .nav li{
+    list-style: none;
+    margin-left: 30px ;
+}
+header .nav li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.3s;
+    font-size: 1em;
+    text-transform: uppercase;
+}
+header .nav li a:hover{
+    color: #104447;
+}
+.contenido{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+.contenido .tituloBox{
+    position: relative;
+    max-width: 800px;
+}
+.contenido .tituloBox h2{
+    font-size: 3em;
+    text-transform: uppercase;
+    color: #ffffff;
+    line-height: 1.5;
+}
+.contenido .tituloBox h2 span{
+    color: #154666;
+    font-weight: 800;
+}
+.contenido .tituloBox h3{
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+.contenido .tituloBox p{
+    color: #ffffff;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+.contenido .tituloBox a{
+    padding:10px 20px;
+    border: 1px solid #011140;
+    color: #ffffff;
+    text-decoration: none;
+    background: transparent;
+}
+.contenido .tituloBox a:hover{
+    background: #011140;
+    color: #ffffff;
+}
+.contenido .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenido .imgBox img{
+    width: 300px;
+    box-shadow: 50px 50px 0px 0px;
+}
+.proyectos{
+   position: relative;
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.proyectos .cardProyectos{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 100px;
+    padding-top: 30px;
+} 
+
+.proyectos .cardProyectos .card{
+    text-align: center;
+    color: #ffffff;
+    width: 500px;
+    height: 300px;
+    padding: 30px;
+    
+}
+.proyectos .cardProyectos .card img, iframe{
+    border-radius: 25px 25px;
+    width: 100%;
+    height: 300px;
+}
+.proyectos .cardProyectos .card p{
+    font-size: 1em;
+}
+.proyectos .cardProyectos .card p span{
+    font-weight: 800;
+}
+.proyectos .cardProyectos .card:hover{
+    scale: 1.03;
+}
+
+.titulo{
+    font-size: 2em;
+    font-weight: 800;
+    color: #154666;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.texBox{
+    position: relative;
+    width: 600px;
+}
+.texBox p{
+    text-align: center;
+    color:#ffffff ;
+    margin-bottom: 30px;
+}
+.texBox i{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.texBox svg{
+    margin-top: 15px;
+}
+.texBox path{
+    padding: 0;
+    margin-top: 25px;
+}
+.contacto{
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ }
+ .contacto h2{
+    font-size: 2em;
+    font-weight: 800;
+    color: #154666;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+ }
+ .contacto h3{
+    color: #ffffff;
+    margin-bottom: 20px;
+ }
+.redes{
+    margin-bottom: 20px;
+}
+.contacto .redes i{
+    color: #ffffff;
+    font-size: 35px;
+    margin: 10px;
+}
+.contacto a{
+    text-decoration: none;
+}
+.contacto i{
+    font-size: 20px;
+}
+
+
