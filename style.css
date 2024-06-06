@@ -169,7 +169,6 @@ header .nav li a:hover {
     padding: 30px;
 
 }
-
 .proyectos .cardProyectos .card img,
 iframe {
     border-radius: 25px 25px;
@@ -271,7 +270,6 @@ iframe {
 .contacto i {
     font-size: 20px;
 }
-
 @media only screen and (max-width:1024px) {
     header {
         padding: 25px 80px;
@@ -305,10 +303,7 @@ iframe {
         margin-bottom: 20px;
         margin-top: 30px;
     }
-
-
 }
-
 @media only screen and (max-width:600px) {
     section{
         padding: 25px;
