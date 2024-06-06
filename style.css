@@ -1,20 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-weight: 400;
     font-family: 'Reddit', sans-serif;
+    scroll-behavior: smooth;
 }
-body{
+
+body {
     background: #0B2B40;
     overflow-x: hidden;
 }
-section{
+
+section {
     padding: 100px;
 }
-.inicio{
-    
+
+.inicio {
+
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -22,7 +27,8 @@ section{
     justify-content: center;
     align-items: center;
 }
-header{
+
+header {
     position: fixed;
     top: 0;
     left: 0;
@@ -36,26 +42,31 @@ header{
     background: #154666;
 
 }
-header .logo{
+
+header .logo {
     font-size: 2em;
     text-decoration: none;
     text-transform: uppercase;
     color: #ffffff;
-    padding: 0 10px ;
+    padding: 0 10px;
 }
-header .logo span{
+
+header .logo span {
     color: #011140;
     font-weight: 700;
 }
-header .nav{
+
+header .nav {
     position: relative;
     display: flex;
 }
-header .nav li{
+
+header .nav li {
     list-style: none;
-    margin-left: 30px ;
+    margin-left: 30px;
 }
-header .nav li a{
+
+header .nav li a {
     text-decoration: none;
     color: #ffffff;
     font-weight: 600;
@@ -64,10 +75,12 @@ header .nav li a{
     font-size: 1em;
     text-transform: uppercase;
 }
-header .nav li a:hover{
+
+header .nav li a:hover {
     color: #104447;
 }
-.contenido{
+
+.contenido {
     position: relative;
     width: 100%;
     display: flex;
@@ -75,91 +88,108 @@ header .nav li a:hover{
     align-items: center;
     padding-left: 30px;
 }
-.contenido .tituloBox{
+
+.contenido .tituloBox {
     position: relative;
     max-width: 800px;
 }
-.contenido .tituloBox h2{
+
+.contenido .tituloBox h2 {
     font-size: 3em;
     text-transform: uppercase;
     color: #ffffff;
     line-height: 1.5;
 }
-.contenido .tituloBox h2 span{
+
+.contenido .tituloBox h2 span {
     color: #154666;
     font-weight: 800;
 }
-.contenido .tituloBox h3{
+
+.contenido .tituloBox h3 {
     font-weight: 800;
     color: #ffffff;
     font-size: 1.5em;
     margin-bottom: 15px;
 }
-.contenido .tituloBox p{
+
+.contenido .tituloBox p {
     color: #ffffff;
     margin-bottom: 35px;
     line-height: 1.5;
 }
-.contenido .tituloBox a{
-    padding:10px 20px;
+
+.contenido .tituloBox a {
+    padding: 10px 20px;
     border: 1px solid #011140;
     color: #ffffff;
     text-decoration: none;
     background: transparent;
 }
-.contenido .tituloBox a:hover{
+
+.contenido .tituloBox a:hover {
     background: #011140;
     color: #ffffff;
 }
-.contenido .imgBox{
+
+.contenido .imgBox {
     width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.contenido .imgBox img{
+
+.contenido .imgBox img {
     width: 300px;
     box-shadow: 50px 50px 0px 0px;
 }
-.proyectos{
-   position: relative;
-   display: flex; 
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
+
+.proyectos {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.proyectos .cardProyectos{
+
+.proyectos .cardProyectos {
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 100px;
     padding-top: 30px;
-} 
+}
 
-.proyectos .cardProyectos .card{
-    text-align: center;
+.proyectos .cardProyectos .card {
+    text-align: left;
+    margin-left: 15px;
     color: #ffffff;
     width: 500px;
     height: 300px;
     padding: 30px;
-    
+
 }
-.proyectos .cardProyectos .card img, iframe{
+
+.proyectos .cardProyectos .card img,
+iframe {
     border-radius: 25px 25px;
     width: 100%;
     height: 300px;
 }
-.proyectos .cardProyectos .card p{
+
+.proyectos .cardProyectos .card p {
     font-size: 1em;
 }
-.proyectos .cardProyectos .card p span{
+
+.proyectos .cardProyectos .card p span {
     font-weight: 800;
 }
-.proyectos .cardProyectos .card:hover{
+
+.proyectos .cardProyectos .card:hover {
     scale: 1.03;
 }
 
-.titulo{
+.titulo {
     font-size: 2em;
     font-weight: 800;
     color: #154666;
@@ -167,61 +197,235 @@ header .nav li a:hover{
     margin-top: 15px;
     margin-bottom: 10px;
 }
-.texBox{
+
+.texBox {
     position: relative;
     width: 600px;
 }
-.texBox p{
+
+.texBox p {
     text-align: center;
-    color:#ffffff ;
+    color: #ffffff;
     margin-bottom: 30px;
 }
-.texBox i{
+
+.texBox i {
     font-size: 30px;
     margin-top: 15px;
     margin-left: 10px;
     margin-right: 10px;
 
 }
-.texBox svg{
+
+.texBox svg {
     margin-top: 15px;
 }
-.texBox path{
+
+.texBox path {
     padding: 0;
     margin-top: 25px;
 }
-.contacto{
+
+.contacto {
     position: relative;
-    display: flex; 
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
- }
- .contacto h2{
+}
+
+.contacto h2 {
     font-size: 2em;
     font-weight: 800;
     color: #154666;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
- }
- .contacto h3{
+}
+
+.contacto h4 {
     color: #ffffff;
     margin-bottom: 20px;
- }
-.redes{
+    font-size: 20px;
+}
+
+.contacto h3 {
+    color: #ffffff;
     margin-bottom: 20px;
 }
-.contacto .redes i{
+
+.redes {
+    margin-bottom: 20px;
+}
+
+.contacto .redes i {
     color: #ffffff;
     font-size: 35px;
     margin: 10px;
 }
-.contacto a{
+
+.contacto a {
     text-decoration: none;
 }
-.contacto i{
+
+.contacto i {
     font-size: 20px;
 }
 
+@media only screen and (max-width:1024px) {
+    header {
+        padding: 25px 80px;
+    }
 
+    .proyectos .cardProyectos {
+        position: relative;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-top: 30px;
+    }
+    
+    .proyectos .cardProyectos .card {
+        text-align: left;
+        color: #ffffff;
+        width: 320px;
+        height: 300px;
+    
+    }
+    
+    .proyectos .cardProyectos .card img,
+    iframe {
+        border-radius: 25px 25px;
+        width: 320px;
+        height: 300px;
+    }
+    
+
+    .proyectos .texBox {
+
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+
+}
+
+@media only screen and (max-width:600px) {
+    section{
+        padding: 25px;
+    }
+    header.sticky {
+        padding: 10px 80px;
+
+    }
+
+    header .nav {
+        display: none;
+    }
+
+   
+
+    header .nav.active li a {
+        font-size: 1.5em;
+    }
+   header a .logo{
+    max-width: 100%;
+        padding: 0;
+    }
+    .inicio {
+        position: relative;
+        max-width: 100%;
+        min-height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenido {
+        position:relative;
+        width: 450px;
+        height: 400px;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 30px;
+    }
+    
+    .contenido .tituloBox {
+        position: relative;
+        padding: 0;
+        
+    }
+    
+    .contenido .tituloBox h2 {
+        font-size: 2.2em;
+        text-transform: uppercase;
+        color: #ffffff;
+        line-height: 1.5;
+    }
+    
+    .contenido .tituloBox h2 span {
+        color: #154666;
+        font-weight: 800;
+    }
+    
+    .contenido .tituloBox h3 {
+        font-weight: 800;
+        color: #ffffff;
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+    
+    .contenido .tituloBox p {
+        color: #ffffff;
+        margin-bottom: 70px;
+        line-height: 1.5;
+    }
+    
+    .contenido .tituloBox a {
+        text-align: center;
+        padding: 10px 20px;
+        border: 1px solid #011140;
+        color: #ffffff;
+        text-decoration: none;
+        background: transparent;
+    }
+    
+    .contenido .tituloBox a:hover {
+        background: #011140;
+        color: #ffffff;
+    }
+    
+    .contenido .imgBox {
+        display: none;
+    }
+    
+    .proyectos {
+        max-width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .proyectos .texBox{
+        max-width: 100%;
+    }
+    .proyectos .cardProyectos {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        margin-left: 0;
+        padding: 0;
+
+    }
+    .proyectos .cardProyectos .card {
+        font-size: 0.9em;
+        text-align: left;
+        padding: 0;
+    }
+    .proyectos .cardProyectos .cardImg img,
+    iframe {
+        padding: 0;
+        margin: 0;
+        width: 320px;
+
+    }
+
+}
