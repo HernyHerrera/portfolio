@@ -88,6 +88,18 @@ header .nav li a:hover {
     align-items: center;
     padding-left: 30px;
 }
+.icons{
+   
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+}
+.icons div i{
+    
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
 
 .contenido .tituloBox {
     position: relative;
@@ -177,6 +189,7 @@ iframe {
 }
 
 .proyectos .cardProyectos .card p {
+    margin-left: 8px;
     font-size: 1em;
 }
 
