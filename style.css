@@ -404,6 +404,9 @@ iframe {
     .contenido .imgBox {
         display: none;
     }
+    .icons{
+        margin-bottom: 30px;
+    }
     
     .proyectos {
         max-width: 100%;
